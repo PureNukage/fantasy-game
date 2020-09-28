@@ -1,0 +1,1 @@
+if buffer_exists(surfaceBuffer) buffer_delete(surfaceBuffer)

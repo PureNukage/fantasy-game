@@ -1,0 +1,37 @@
+﻿NPC KEY,NEXT,Shopkeeper
+Shop1,2,"Greetings... Commerce Badge, please."
+Shop2,3,Oh... you don't have a Commerce Badge.
+Shop3,4,You can't shop here without a Commerce Badge.
+Shop4,5,You'll have to talk to Minister Northrup about getting a Commerce Badge.
+Shop5,6,"Oh, that's right... Minister Northrup is away at the hot springs spa up in the mountains."
+Shop6,7,There's not much I can do for you until the minister gets back from his vacation.
+Shop7,-6,It sure is hard to walk away from those hot springs...
+,,[repeat 6; new strings after goblin attack is repelled]
+Shop8,9,I can't believe the state of things around here!
+Shop9,10,Don't look at me like that. I brought this wine from home. It's considered rustic to drink from the bottle!
+Shop10,-10,"No, you don't need a Commerce Badge to have some wine, but I'm not sharing anyways. My nerves are a wreck!"
+,,"[revert to 4-6, then repeat 6]"
+,,
+,,Water Porter
+Well1,,"A traveler, eh? The well is good and full, but the water’s been tasting strange these days. "
+Well2,,I carry the water to whoever needs it. That’s my job. But the flavor is my passion!
+Well3,,"In some seasons, the water is earthy and mellow. Other times it is sweet and bright. But recently it tastes… wrong. "
+Well4,,"Say, maybe I’ve just been drinking this stuff for too long. Maybe it’s my tongue that’s gone strange. I guess I wouldn’t know, because this is the only water I drink."
+Well5,,I wonder how the water tastes in other places…
+,,"[player has water skin to offer, prompting next strings; else repeat 5]"
+Well6,,For me? Oh my! …
+,,…
+,,…
+Well7,,"Fascinating. This water brings me back to my childhood. Notes of summer leaves, horse hooves. Yes… incredible! This water tastes like how water should."
+Well8,,I guess it’s true after all. It’s not just me. Something is strange with the flavor of our water here.
+Well9,,…
+,,Could it be?
+,,…
+,,… But what else…?
+Well10,,What’s that? Oh… I was lost in thought. Think I’ll go drink some more water.
+,,[prompt 11 and 12 when player has defeated goblins IF water skin was given]
+Well11,,Do you see? This is just the sort of thing that will ruin a water table!
+Well12,,I don’t know if I’ll stay here any longer. There’s bound to be better water out there.
+,,[prompt 13 when player has defeated goblins IF water skin was NOT given]
+Well13,,AAAAAAAHHHHHH!!! 
+,,[Water Porter jumps into the Well]
